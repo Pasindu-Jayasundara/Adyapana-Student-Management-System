@@ -13,7 +13,7 @@ public class UploadImage {
     
     public static HashMap upload(HashMap<String,String> imageMap) {
 
-        String destinationDirectory = "src/resources/profileImage/";// Specify the destination directory for the image
+        String destinationDirectory = "src/images/profileImages/";// Specify the destination directory for the image
         File destDir = new File(destinationDirectory);// Create the destination directory if it does not exist
         if (!destDir.exists()) {
             destDir.mkdirs();
